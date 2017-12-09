@@ -1,0 +1,206 @@
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: helvetica;
+  opacity: 0.9;
+}
+
+a { color: inherit; }
+
+
+header {
+  display: flex;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  z-index: 5;
+  top: 0px;
+}
+
+.nav {
+margin-right: 20px;
+}
+
+header span {
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/*first container*/
+
+.mission {
+  display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 75px;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  margin: 0px auto 80px auto;
+}
+
+.mission h2 {
+  color: seashell;
+}
+
+.statement {
+  background-color: black;
+  height: 100px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.statement h2 {
+  font-size: 30px;
+  margin: 5px;
+}
+
+/*second container*/
+
+.varieties {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0px auto 80px auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.images h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.images {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.berry img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.spiced img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.donuts img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.myrtle img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.bedford img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+/*third container*/
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.locations h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.names {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 20px;
+  width: 280px;
+  justify-content: space-around;
+
+}
+
+.names span {
+  font-size: 20px;
+}
+
+.names h3 {
+  font-size: 25px;
+}
+
+.east {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 20px;
+  width: 300px;
+  height: 280px;
+  justify-content: space-around;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 20px;
+  width: 280px;
+  justify-content: space-around;
+}
+
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+footer h3 {
+  font-size: 35px;
+}
+
+footer h5 {
+  font-size: 20px;
+}
+
+footer span {
+  font-size: 20px;
+}
+
+.copywright {
+  color: seashell;
+  opacity: 0.8;
+}
